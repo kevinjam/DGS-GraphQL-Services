@@ -1,0 +1,8 @@
+type Query{
+    lolomo: [ShowCategory]
+}
+
+type ShowCategory{
+    name: String,
+    show: [Show]
+}
